@@ -1,14 +1,12 @@
-package com;
+package com.buildwithAlfa.store.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class Homecontrroler {
+public class HomeController {
     @RequestMapping("/")
-    public String index(){
-        return "index.html";
-
+    public String index() {
+        return "redirect:/index.html";
     }
-    
 }

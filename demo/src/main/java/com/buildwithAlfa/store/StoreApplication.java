@@ -8,8 +8,8 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @EnableWebMvc
 public class StoreApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(StoreApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(StoreApplication.class, args);
+    }
 
 }
